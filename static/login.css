@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* *{
+    border: 2px solid red;
+} */
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 1em;
+}
+
+:focus{
+    outline: none;
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Montserrat",sans-serif;
+}
+
+body{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5rem;
+}
+
+form{
+    display: flex;
+    /* flex: auto; */
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+}
+
+input{
+    height: 50px;
+    width: 500px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+    border: none;
+    background-color: #e2e2e2;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.submit{
+    background-color: #fdd000;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    height: 60px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Montserrat",sans-serif;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Montserrat",sans-serif;
+}
+
+th{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Montserrat",sans-serif;
+    padding: 2rem;
+}
+
+td{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Montserrat",sans-serif;
+    padding: 2rem;
+}
+
+thead, tbody{
+    gap: 2rem;
+}
+
+
